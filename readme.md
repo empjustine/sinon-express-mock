@@ -15,7 +15,6 @@ Depends on:
 - Node v4+ (or `Object.assign` support needed)
 - Sinon
 
-
 ## Usage
 
 Contents of `src/foo.js`:
@@ -53,6 +52,13 @@ describe('my route', () => {
 
 ## Changelog
 
+### V2.0.0
+
+- Upgraded from
+  - babel-cli: 6.2.0 → ^6.26.0
+  - babel-preset-es2015: 6.1.18 → babel-preset-env: ^1.6.1
+  - sinon: 1.17.2 → ^4.1.3
+
 ### v1.3.1
 
 - Bundle fix from #3
@@ -61,11 +67,9 @@ describe('my route', () => {
 
 - Changelog didn't exist! 😱
 
-
 ## Credits
 
 Dana Woodman and [contributors](https://github.com/danawoodman/sinon-express-mock/graphs/contributors)
-
 
 ## License
 
